@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/climatemetrics/posts/dl-finance/venv"
+VIRTUAL_ENV="/home/climatemetrics/posts/deep-learning-finance/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
