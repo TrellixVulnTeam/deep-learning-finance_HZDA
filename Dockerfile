@@ -10,7 +10,7 @@ RUN venv/bin/pip install -r requirements.txt
 # in my boot.sh does not work here in Dockerfile in ENTRYPOINT. Don't know why
 COPY dl-finance.ipynb boot.sh ./ 
 RUN chmod a+x boot.sh
-ENV PORT 8080
+ENV PORT 8081
 
 # I follow https://github.com/photonics-project/notebooks/blob/main/Dockerfile
 # but put jimustafa's ENTRYPOINT into boot.sh
